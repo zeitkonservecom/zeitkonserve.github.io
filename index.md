@@ -1,7 +1,6 @@
 ---
 title: Zeitkonserve.com
 ---
-{% include JB/setup %}
 
 <ul class="posts">
 {% for post in site.posts  limit:10 %}

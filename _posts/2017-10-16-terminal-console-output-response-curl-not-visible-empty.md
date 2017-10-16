@@ -2,7 +2,7 @@
 title: curl output in terminal/console always empty
 ---
 
-reason:
+when `curl some-url.com` is always empty, but the `--trace-ascii /dev/stdout` switch shows all data, then there's somthing wrong with the encoding of the server repsonse.
 
 ```
 > file output.txt

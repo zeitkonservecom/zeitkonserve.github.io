@@ -12,7 +12,7 @@ title: Prepare a typo3-instance for a translation process
   ```
 3. Add pid and uid to all elements in your page:
   ```
-  tt_content.stdWrap.dataWrap = <div><div style="position:relative;left:0px;top:0px; background-color:white">{field:uid}_{field:pid}	<a href="http://localhost/typo3/alt_doc.php?&edit[tt_content][{field:uid}]=edit">EDIT</a></div>|</div>
+  tt_content.stdWrap.dataWrap = <div><div style="z-index: 9999;position:relative;left:0px;top:0px; background-color:white">{field:uid}_{field:pid}	<a href="http://localhost/typo3/alt_doc.php?&edit[tt_content][{field:uid}]=edit">EDIT</a></div>|</div>
   ```
 4. Open ~/tt_content_edited.csv in LibreOffice, go through the website and collect/check all content elements which needs to be translated. 
 

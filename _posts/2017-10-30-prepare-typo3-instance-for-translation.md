@@ -5,6 +5,11 @@ title: Prepare a typo3-instance for a translation process
 1. Export content elemenents which needs to be translated:
   ```
   SELECT uid, pid, header, bodytext FROM `tt_content` WHERE deleted=0 and hidden=0 and sys_language_uid = 1 order by pid asc
+   
+  --- or ---
+   
+  SELECT concat(concat('http://localhost/typo3/alt_doc.php?&edit[tt_content][',uid),']=edit'), concat('http://localhost/index.php?&L=1&id=',pid), header, bodytext FROM `tt_content` WHERE deleted=0 and hidden=0 order by pid asc
+ 
   ```
 2. Remove html-tags:
   ```

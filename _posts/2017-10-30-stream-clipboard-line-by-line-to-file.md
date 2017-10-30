@@ -2,7 +2,7 @@
 title: stream clipboard line by line to file
 ---
 
-
+```
 clip=`xclip -o -selection c`
 while true
 do
@@ -18,3 +18,4 @@ clip=`xclip -o -selection c`
 echo "$clip";
 done;
 
+```

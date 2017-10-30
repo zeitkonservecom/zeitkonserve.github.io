@@ -8,7 +8,7 @@ title: Prepare a typo3-instance for a translation process
    
   --- or ---
    
-  SELECT concat(concat('http://localhost/typo3/alt_doc.php?&edit[tt_content][',uid),']=edit'), concat('http://localhost/index.php?&L=1&id=',pid), header, bodytext FROM `tt_content` WHERE deleted=0 and hidden=0 order by pid asc
+  SELECT concat(concat('http://localhost/typo3/alt_doc.php?&edit[tt_content][',uid),']=edit'), concat('http://localhost/index.php?&L=1&id=',pid), header, bodytext FROM `tt_content` WHERE deleted=0 and hidden=0 order by pid asc, uid asc
  
   ```
 2. Remove html-tags:

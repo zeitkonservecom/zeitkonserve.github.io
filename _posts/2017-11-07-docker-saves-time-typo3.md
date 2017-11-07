@@ -18,6 +18,8 @@ BUT read the docs and install from here:
 
 on local port `3307`
 
+(press ctrl+x, ctrl+e for editing long commands in $EDITOR)
+
 ```
 sudo docker run -d --name typo3-db \
     -e MYSQL_ROOT_PASSWORD=password \

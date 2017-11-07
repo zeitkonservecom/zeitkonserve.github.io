@@ -79,7 +79,7 @@ remove image: `sudo docker rm typo3-db`
 
 ### Sources:
 
-<https://www.martin-helmich.de/de/blog/typo3-cms-docker.html>
-<https://wiki.typo3.org/TYPO3-Docker>
-<https://docs.docker.com/engine/userguide/networking/work-with-networks/#connect-containers>
-<https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/>
+* <https://www.martin-helmich.de/de/blog/typo3-cms-docker.html>
+* <https://wiki.typo3.org/TYPO3-Docker>
+* <https://docs.docker.com/engine/userguide/networking/work-with-networks/#connect-containers>
+* <https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/>

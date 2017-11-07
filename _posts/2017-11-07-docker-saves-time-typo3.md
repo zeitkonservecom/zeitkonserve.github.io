@@ -2,7 +2,7 @@
 title: Docker saves time
 ---
 
-## Install Docker from docker.io
+### Install Docker from docker.io
 
 NOT: `sudo apt-get install docker` (its a docking app for the taskbar)
 
@@ -10,11 +10,11 @@ BUT read the docs and install from here:
 
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
-## get typo3 image
+### get typo3 image
 
    sudo docker pull martinhelmich/typo3
 
-## run db
+### run db
 
 on local port `3307`
 
@@ -34,7 +34,7 @@ check db connection:
 
 `mycli -P 3307 -u typo3 -p password typo3`
    
-## run server with typo3
+### run server with typo3
 
 on local port `8080`
 
@@ -55,7 +55,7 @@ sudo docker network connect isolated_nw typo3-web
 sudo docker network connect isolated_nw typo3-db
 ```
 
-## open in browser
+### open in browser
 
 http://localhost:8080
 
@@ -68,7 +68,7 @@ host: db
 
 when using without `--link` (obsolete) use db-host from `docker network inspect isolated_nw`.
 
-## notice
+### notice
 
 list running docker images: `sudo docker ps`
 get another version: use `martinhelmich/typo3:7`
@@ -77,7 +77,7 @@ remove image: `sudo docker rm typo3-db`
 `--link` parameter is depracted, so not used here
 `docker network inspect isolated_nw` list devices in network
 
-## Sources:
+### Sources:
 
 https://www.martin-helmich.de/de/blog/typo3-cms-docker.html
 https://wiki.typo3.org/TYPO3-Docker

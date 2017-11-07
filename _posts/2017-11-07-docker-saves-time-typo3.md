@@ -46,6 +46,7 @@ http://localhost:8080
 
 list running docker images: `sudo docker ps`
 get another version: use `martinhelmich/typo3:7`
+kill image: `sudo docker kill typo3-db`
 
 Sources:
 

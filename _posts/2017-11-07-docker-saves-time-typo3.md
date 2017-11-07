@@ -38,7 +38,11 @@ sudo docker run -d --name typo3-web \
   martinhelmich/typo3
 ´´´
 
-5. notice
+5. list running docker images
+
+sudo docker ps
+
+6. notice
 
 get another version: use `martinhelmich/typo3:7`
 

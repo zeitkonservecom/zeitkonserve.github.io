@@ -8,7 +8,7 @@ NOT: `sudo apt-get install docker` (its a docking app for the taskbar)
 
 BUT read the docs and install from here:
 
-https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+<https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/>
 
 ### get typo3 image
 
@@ -57,7 +57,7 @@ sudo docker network connect isolated_nw typo3-db
 
 ### open in browser
 
-http://localhost:8080
+<http://localhost:8080>
 
 and setup typo3:
 
@@ -79,7 +79,7 @@ remove image: `sudo docker rm typo3-db`
 
 ### Sources:
 
-https://www.martin-helmich.de/de/blog/typo3-cms-docker.html
-https://wiki.typo3.org/TYPO3-Docker
-https://docs.docker.com/engine/userguide/networking/work-with-networks/#connect-containers
-https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/
+<https://www.martin-helmich.de/de/blog/typo3-cms-docker.html>
+<https://wiki.typo3.org/TYPO3-Docker>
+<https://docs.docker.com/engine/userguide/networking/work-with-networks/#connect-containers>
+<https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/>

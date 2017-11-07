@@ -70,12 +70,13 @@ when using without `--link` (obsolete) use db-host from `docker network inspect 
 
 ### notice
 
-list running docker images: `sudo docker ps`
+list running docker containers: `sudo docker ps`
 get another version: use `martinhelmich/typo3:7`
-stop image: `sudo docker stop typo3-db`
-remove image: `sudo docker rm typo3-db`
+stop container: `sudo docker stop typo3-db`
+remove container: `sudo docker rm typo3-db`
 `--link` parameter is depracted, so not used here
 `docker network inspect isolated_nw` list devices in network
+`sudo docker exec -it typo3-web bash` works only on running container
 
 ### Sources:
 

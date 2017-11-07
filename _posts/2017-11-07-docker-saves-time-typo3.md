@@ -16,7 +16,7 @@ sudo docker pull martinhelmich/typo3
 
 3. run db
 
-´´´
+```
 docker run -d --name typo3-db \
     -e MYSQL_ROOT_PASSWORD=password \
     -e MYSQL_USER=typo3 \
@@ -25,25 +25,26 @@ docker run -d --name typo3-db \
   mariadb:latest \
     --character-set-server=utf8 \
     --collation-server=utf8_unicode_ci
-´´´
+```
     
 4. run server with typo3
 
-on local port 8080
+on local port `8080`
 
-´´´
+```
 sudo docker run -d --name typo3-web \
     --link typo3-db:db \
     -p 8080:80 \
   martinhelmich/typo3
-´´´
+```
 
-5. list running docker images
+5. open in browser
 
-sudo docker ps
+http://localhost:8080
 
 6. notice
 
+list running docker images: `sudo docker ps`
 get another version: use `martinhelmich/typo3:7`
 
 Sources:

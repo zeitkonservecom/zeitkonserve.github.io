@@ -1,5 +1,5 @@
 ---
-title: Whatsapp/Instagram/Viber: Received, Read, Understood
+title: Whatsapp/Instagram/Viber - Received, Read, Understood
 ---
 
 

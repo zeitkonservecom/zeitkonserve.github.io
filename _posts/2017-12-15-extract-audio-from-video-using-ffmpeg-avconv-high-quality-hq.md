@@ -21,4 +21,4 @@ Stream mapping:
 [...]
 ```
 
-ffmpeg/avconv will not convert the audio stream, but just save it.
+ffmpeg/avconv will not convert the audio stream, but just save it in hq.
